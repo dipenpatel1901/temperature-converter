@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="super-container">
+      <div class="container">
+        <h1 class="head">Temperature Converter</h1>
+        <div class="row">
+            <div class="celsius">
+                <p class="temps">Celsius</p>
+                <input type="number" class="celsius-input" placeholder="0" value="0" id="cd" />
+            </div>
+            <i class="fa-solid fa-right-left icon"></i>
+            <div class="fahrenheit">
+                <p class="temps">Fahrenheit</p>
+                <input type="number" class="fahrenheit-input" placeholder="0" value="32" id="fd"/>
+            </div>
+        </div>
+        <div class="formula-box">
+          <div><u> Formula </u></div>
+          <p id="formula">(°C x 9/5) + 32 = 32°F</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
